@@ -1,0 +1,13 @@
+{  
+  "name": "to-top",  
+  "version": "1.0",  
+  "manifest_version": 2,  
+  "description": "goto top of page",
+  "browser_action": {
+      "default_title": "to-top"
+   },
+  "content_scripts":[{  
+    "matches":["*://*/*"],  
+    "js":["content_scripts.js"]  
+  }]
+}  
